@@ -1,6 +1,6 @@
 {
   "name": "future-loader",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A webpack loader that allows for path resolution and test loader",
   "main": "loader.js",
   "scripts": {

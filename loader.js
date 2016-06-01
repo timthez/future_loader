@@ -61,10 +61,11 @@ var find = function(mod){
 
 module.exports = function(data,map){
   this.cacheable(true);  
-  if(this.resourcePath.indexOf("/test_list.js" && !testsReindexed)>=0){
+  if(this.resourcePath.indexOf("/test_list.js" )>=0 && !testsReindexed){
     console.log("Rebuiling Tests", this.resourcePath);
     reSetup();
     testsReindexed = true;
+    console.log("Tests Rebuilt");
   }else{
     testsReindexed = false;
   }
