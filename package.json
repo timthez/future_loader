@@ -1,0 +1,17 @@
+{
+  "name": "future-loader",
+  "version": "1.0.7",
+  "description": "A webpack loader that allows for path resolution and test loader",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Tim Zuercher"
+  },
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "_id": "future-loader@1.0.4",
+  "_shasum": "1ccad5009bcd453fdaf5d622d15ce2cf93c6cd1f",
+  "_from": "future-loader@*"
+}
